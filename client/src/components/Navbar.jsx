@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="flex items-center gap-5">
               <p
                 onClick={() => navigate("/buy")}
-                className="cursor-pointer bg-blue-400 px-5 py-2 text-sm font-semibold text-white rounded-full"
+                className="cursor-pointer bg-blue-400 px-5 py-2 text-sm  text-white rounded-full"
               >
                 Subscription
               </p>

@@ -52,11 +52,11 @@ const Header = () => {
       className='flex flex-wrap justify-center mt-16 gap-3'>
        
         <motion.img whileHover={{scale:1.05, duration:0.1}}
-            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img1} width={80} />
+            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img_1} width={90} />
         <motion.img whileHover={{scale:1.05, duration:0.1}}
-            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img2} width={80} />
+            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img_2} width={90} />
         <motion.img  whileHover={{scale:1.05, duration:0.1}}
-            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img3} width={80} />
+            className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={assets.sample_img_3} width={90} />
 
       </motion.div>
       <motion.p 
